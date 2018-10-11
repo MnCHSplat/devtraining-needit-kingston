@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Update and close NeedIt Tasks that are past the threshold for NeedIt Tasks</description>
+        <label_cache>[{"name":"034d8a2b-0704-4348-9373-9f009467608c.property_value","label":"1➛property_value","type":"string","base_type":"string"},{"name":"64be1193-a0bb-414d-9585-6032f7bf976f.calculated_date","label":"2➛calculated_date","type":"glide_date","base_type":"glide_date"},{"name":"c5b415ad-311b-45da-a984-1471a0f09a75.current_date","label":"3➛current_date","reference_display":"current_date"},{"name":"6f7dba80-d884-403c-91a2-f0a5016cc4c0.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"6f7dba80-d884-403c-91a2-f0a5016cc4c0.Table","label":"3➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table"},{"name":"6f7dba80-d884-403c-91a2-f0a5016cc4c0.Count","label":"3➛Count","reference_display":"Count"},{"name":"60965b5c-1cdc-4329-8549-16dd537947ae.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"1bdfa214-675f-497c-8bd9-052199cd52ff.record","label":"4.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"}]</label_cache>
+        <name>Close Old NeedIt Tasks</name>
+        <parent_flow display_value="Close Old NeedIt Tasks">8022591adb4123009733178039961979</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-11 18:39:03</sys_created_on>
+        <sys_id>1e4365d2db8123009733178039961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Close Old NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_1e4365d2db8123009733178039961923</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-11 18:39:03</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

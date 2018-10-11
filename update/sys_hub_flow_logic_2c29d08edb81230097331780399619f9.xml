@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2829d08edb81230097331780399619f8</block>
+        <connected_to>d5ecea8a-8ee4-4c08-859a-8a4dc320cb9a</connected_to>
+        <display_text/>
+        <flow display_value="Needit Fulfillment">74cb6b7ddb01230097331780399619c0</flow>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>3.3</order>
+        <parent_ui_id>d0175972-3ba3-4f68-8003-5a4ddece1c93</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-10 18:36:36</sys_created_on>
+        <sys_id>2c29d08edb81230097331780399619f9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_2c29d08edb81230097331780399619f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-10 18:36:43</sys_updated_on>
+        <ui_id>03b39dc7-7c77-4e5c-be7b-35c67b6d6d26</ui_id>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2c29d08edb81230097331780399619f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2c29d08edb81230097331780399619f9</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-10 18:36:36</sys_created_on>
+        <sys_id>e829d08edb81230097331780399619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-10 18:36:36</sys_updated_on>
+        <value>{{Created_1.current.u_what_needed}}=facilities1^OR{{Created_1.current.u_what_needed}}=facilities2</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea1</variable>
+    </sys_variable_value>
+</record_update>
